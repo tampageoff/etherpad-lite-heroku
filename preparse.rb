@@ -37,5 +37,5 @@ end
 if ENV['ETHERPAD_ALLOW_ROOT'] == '1'
 exec('./etherpad-lite/bin/run.sh --root')
 else
-exec('./run.sh')
+exec('./etherpad-lite/bin/run.sh')
 end
